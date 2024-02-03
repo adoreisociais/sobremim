@@ -78,6 +78,21 @@ body {
     color: var(--bgColor);
 }
 
+/* Estilizando os botões */
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+
 #hashtag {
     position: relative;
     padding-bottom: 20px;
