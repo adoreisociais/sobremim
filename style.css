@@ -52,22 +52,18 @@ body {
     margin: 27px auto;
 }
 
-.link {
-    position: relative;
-    background-color: transparent;
-    color: var(--accentColor);
-    border: solid var(--accentColor) 2px;
-    border-radius: 10px;
-    font-size: 1rem;
-    text-align: center;
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px; /* 17px */
-    text-decoration: none;
-    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
-    -webkit-tap-highlight-color: transparent;
+/* Adicione essas classes ao seu estilo.css */
+
+/* Botão Instagram */
+.link[href*="instagram.com"] {
+  background: linear-gradient(to right, #833ab4, #e1306c);
+  color: white;
+}
+
+/* Botão WhatsApp */
+.link[href*="whatsapp.com"] {
+  background: linear-gradient(to right, #25d366, #128C7E);
+  color: white;
 }
 
 @media (hover: hover) {
